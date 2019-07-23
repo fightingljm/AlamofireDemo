@@ -14,19 +14,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        Alamofire.request("http://httpbin.org/get",method: .get).responseJSON { (response) in
-            guard let result = response.result.value else {
-                print(response.result.error ?? "default value")
-                return
-            }
+        NetworkTools.requestData(type: .GET, URLString: "http://httpbin.org/get") { (result) in
             print(result)
         }
         
-        Alamofire.request("http://httpbin.org/post",method: .post,parameters: ["name":"ljm"]).responseJSON { (response) in
-            guard let result = response.result.value else {
-                print(response.result.error ?? "default value")
-                return
-            }
+        NetworkTools.requestData(type: .POST, URLString: "http://httpbin.org/post", parameters: ["name":"刘小鱼鱼鱼"]) { (result) in
             print(result)
         }
         

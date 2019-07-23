@@ -12,6 +12,7 @@
 		AA057D6C22E7006400E40F20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA057D6A22E7006400E40F20 /* Main.storyboard */; };
 		AA057D6E22E7006500E40F20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA057D6D22E7006500E40F20 /* Assets.xcassets */; };
 		AA057D7122E7006500E40F20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA057D6F22E7006500E40F20 /* LaunchScreen.storyboard */; };
+		AA057D7922E707C200E40F20 /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA057D7822E707C200E40F20 /* NetworkTools.swift */; };
 		B1A9DEE8D25C7733465E6EF9 /* Pods_AlamofireDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030EE224B6A24469BAE37939 /* Pods_AlamofireDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		AA057D6D22E7006500E40F20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA057D7022E7006500E40F20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA057D7222E7006500E40F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA057D7822E707C200E40F20 /* NetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
 		F26674903AC09C71D99C798E /* Pods-AlamofireDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireDemo.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireDemo/Pods-AlamofireDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +56,6 @@
 				F26674903AC09C71D99C798E /* Pods-AlamofireDemo.debug.xcconfig */,
 				1328FFAB581C07B5AE884500 /* Pods-AlamofireDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -85,6 +86,7 @@
 				AA057D6D22E7006500E40F20 /* Assets.xcassets */,
 				AA057D6F22E7006500E40F20 /* LaunchScreen.storyboard */,
 				AA057D7222E7006500E40F20 /* Info.plist */,
+				AA057D7822E707C200E40F20 /* NetworkTools.swift */,
 			);
 			path = AlamofireDemo;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 			files = (
 				AA057D6922E7006400E40F20 /* ViewController.swift in Sources */,
 				AA057D6722E7006400E40F20 /* AppDelegate.swift in Sources */,
+				AA057D7922E707C200E40F20 /* NetworkTools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
